@@ -1,0 +1,33 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #f8f9fa;  /* Light grey background for the header */
+}
+
+.header h1 {
+    font-family: 'Georgia', serif;  /* Nice font for the title */
+    font-weight: bold;
+    color: #333;  /* Dark color for the text */
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: #666;  /* Subtle grey for the subheading */
+}
+
+/* Carousel Images */
+.carousel-item img {
+    object-fit: cover;   /* Ensures images cover the container fully */
+    height: 500px;       /* Set a fixed height for the carousel images */
+}

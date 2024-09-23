@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label Riwayat - Original Pakistani Designs</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        /* Top moving nav bar */
+        .top-nav {
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .top-nav p {
+            display: inline-block;
+            padding: 10px 0;
+            margin: 0 30px;
+            font-family: Arial, sans-serif;
+            animation: scroll 25s linear infinite;
+        }
+
+        @keyframes scroll {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Style for the main navigation bar */
+        .navbar {
+            background-color: #f4f4f4;
+            padding: 0px;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 1;
+            gap:0px;
+        }
+
+        /* Style for the title "Label Riwayat" */
+        .header h1 {
+            font-family: 'Lucida Handwriting', cursive;
+            color: black;
+            margin-bottom: 1px;
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-bottom:10px;
+            gap: 0px;
+        }
+        
+
+        /* Style for image row with hover effect */
+        .image-row {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 0px;
+            padding-top: 0px; /* Reduce vertical padding */
+            margin-top: 0px; /* Reduce the gap above the image row */
+        }
+
+        .image-row img {
+            width: 35%;
+            height: auto;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* Hover effect: image swap */
+        .image-row img#img1:hover {
+            content: url('1a.jpg');
+        }
+
+        .image-row img#img2:hover {
+            content: url('2a.jpg');
+        }
+
+        .image-row img#img3:hover {
+            content: url('3a.jpg');
+        }
+
+        .image-row img#img4:hover {
+            content: url('4a.jpg');
+        }
+
+        .image-row img#img5:hover {
+            content: url('5a.jpg');
+        }
+
+        .image-row img#img6:hover {
+            content: url('6a.jpg');
+        }
+
+        .image-row img#img7:hover {
+            content: url('7a.jpg');
+        }
+
+        .image-row img#img8:hover {
+            content: url('8a.jpg');
+        }
+
+        .image-row img#img9:hover {
+            content: url('9a.jpg');
+        }
+
+        .image-row img#img10:hover {
+            content: url('10a.jpg');
+        }
+
+        .image-row img#img11:hover {
+            content: url('11a.jpg');
+        }
+
+        .image-row img#img12:hover {
+            content: url('12a.jpg');
+        }
+
+        /* Hide scrollbars */
+        .image-row::-webkit-scrollbar {
+            display: none;
+        }
+
+        .image-row {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* General content styling */
+        .section {
+            padding-top: 20px;
+            padding-bottom: 30px
+
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 0px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Moving top nav -->
+    <div class="top-nav">
+        <p>Free Shipping Across India &nbsp;&nbsp; | &nbsp;&nbsp; +91 9855075409 &nbsp;&nbsp; | &nbsp;&nbsp; *Elite Collection* &nbsp;&nbsp; | &nbsp;&nbsp; *Bridal Collection* &nbsp;&nbsp; | &nbsp;&nbsp; *Shipping Worldwide*</p>
+    </div>
+
+    <!-- Main navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Silk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Unstitched</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stitched</a>
+                  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bridals</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/labelriwayat" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section with title -->
+    <header class="header text-center py-5">
+        <h1 class="display-4">Label Riwayat</h1>
+        <p class="lead">Original Pakistani Designs</p>
+    </header>
+
+    <!-- Section for scrollable row of images -->
+    <div class="container-fluid">
+        <div class="image-row">
+            <img src="1.jpg" id="img1" class="img-fluid" alt="Image 1">
+            <img src="2.jpg" id="img2" class="img-fluid" alt="Image 2">
+            <img src="3.jpg" id="img3" class="img-fluid" alt="Image 3">
+            <img src="4.jpg" id="img4" class="img-fluid" alt="Image 4">
+            <img src="5.jpg" id="img5" class="img-fluid" alt="Image 5">
+            <img src="6.jpg" id="img6" class="img-fluid" alt="Image 6">
+            <img src="7.jpg" id="img7" class="img-fluid" alt="Image 7">
+            <img src="8.jpg" id="img8" class="img-fluid" alt="Image 8">
+            <img src="9.jpg" id="img9" class="img-fluid" alt="Image 9">
+            <img src="10.jpg" id="img10" class="img-fluid" alt="Image 10">
+            <img src="11.jpg" id="img11" class="img-fluid" alt="Image 11">
+            <img src="12.jpg" id="img12" class="img-fluid" alt="Image 12">
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section class="section" id="about">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p>At Label Riwayat, we bring you the finest collection of original Pakistani designs. Our designs blend tradition with modernity, ensuring you look your best while celebrating the rich cultural heritage of Pakistan.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Label Riwayat. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
